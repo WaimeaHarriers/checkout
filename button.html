@@ -93,7 +93,7 @@ Checkout and pay $60
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
       successUrl: 'http://www.waimeaharriers.nz/success',
-      cancelUrl: window.location.protocol + '//www.waimeaharriers.nz/canceled',
+      cancelUrl: 'http://www.waimeaharriers.nz/canceled',
     })
     .then(function (result) {
       if (result.error) {
