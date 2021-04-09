@@ -333,7 +333,7 @@ Click on the appropriate "Pay" button below to be taken to the secure payment se
 <div style="text-align: center; margin-bottom: 10px;">
 <button
   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:2em"
-  id="checkout-button-price_1IdTObDcdZt3m53GNivJU26e"
+  id="checkout-button-price_1Ie9niDcdZt3m53GnOsgIWY5"
   role="link"
   type="button"
 >
@@ -342,16 +342,16 @@ Click on the appropriate "Pay" button below to be taken to the secure payment se
 </div>
 <script>
 (function() {
-  var stripe = Stripe('pk_test_51IbCv4DcdZt3m53Gb13ozNVaNBps179x20zLjGx34rNHLiko7zgw45nZfHfgfnjMRnrpFs13muKsXRIRYOqr8ize00X79k300s');
+  var stripe = Stripe('pk_live_51IbCv4DcdZt3m53GtTC7U3aFvetvQE2wuxV9D7UssvlOmMRYkDbwupyBXphiCzfV6ULrPTIWfSKTGPnZUHjbDpLl000HT2qjnS');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1IdTObDcdZt3m53GNivJU26e');
+  var checkoutButton = document.getElementById('checkout-button-price_1Ie9niDcdZt3m53GnOsgIWY5');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1IdTObDcdZt3m53GNivJU26e', quantity: 1}],
+      lineItems: [{price: 'price_1Ie9niDcdZt3m53GnOsgIWY5', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
@@ -391,7 +391,7 @@ Click on the appropriate "Pay" button below to be taken to the secure payment se
 <div style="  font-size: 20px; padding: 10px; text-align: center;">Pay your Waimea&nbsp;Harriers&nbsp;2021 couple&nbsp;/&nbsp;joint membership<br> by&nbsp;credit&nbsp;card</div>
 <div style="text-align: center; margin-bottom: 10px;"><button
   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:2em"
-  id="checkout-button-price_1IdTPeDcdZt3m53Gx6pXpohq"
+  id="checkout-button-price_1Ie9nRDcdZt3m53GJpdyETqI"
   role="link"
   type="button"
 >
@@ -401,16 +401,16 @@ Checkout and pay $60
 </div>
 <script>
 (function() {
-  var stripe = Stripe('pk_test_51IbCv4DcdZt3m53Gb13ozNVaNBps179x20zLjGx34rNHLiko7zgw45nZfHfgfnjMRnrpFs13muKsXRIRYOqr8ize00X79k300s');
+  var stripe = Stripe('pk_live_51IbCv4DcdZt3m53GtTC7U3aFvetvQE2wuxV9D7UssvlOmMRYkDbwupyBXphiCzfV6ULrPTIWfSKTGPnZUHjbDpLl000HT2qjnS');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1IdTPeDcdZt3m53Gx6pXpohq');
+  var checkoutButton = document.getElementById('checkout-button-price_1Ie9nRDcdZt3m53GJpdyETqI');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1IdTPeDcdZt3m53Gx6pXpohq', quantity: 1}],
+      lineItems: [{price: 'price_1Ie9nRDcdZt3m53GJpdyETqI', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
